@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,7 +9,14 @@
     <script src="scripts/client.js"></script>
     <title>NG 2 Canopus</title>
 </head>
-<body>
-   <h1>NG 2 Canopus</h1> 
+
+<body ng-app='myApp'>
+    <h1>NG 2 Canopus</h1>
+    <section ng-controller="ReviewController as RC">
+        <h2>Review Stuff!!!</h2>
+        <input type="text" placeholder="1 of your favorite bands" ng-model='RC.bandIn'>
+        <p>{{ RC.bandIn }}</p>
+    </section>
 </body>
+
 </html>

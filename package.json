@@ -1,7 +1,6 @@
 {
   "name": "canopus_ng2",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -19,6 +18,9 @@
   "homepage": "https://github.com/devjanaprime/canopusNG#readme",
   "dependencies": {
     "body-parser": "^1.18.1",
-    "express": "^4.15.4"
-  }
+    "express": "^4.15.4",
+    "pg": "^7.3.0"
+  },
+  "keywords": [],
+  "description": ""
 }
