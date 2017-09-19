@@ -1,0 +1,14 @@
+$http --> service
+just needs a dependency injection
+
+1 - ng-app
+2 controller
+3 link to html
+4 ng-model
+4.5 ng expression
+5 ng-click
+6 ng-repeat
+7 $http -> service, injection
+8 test $http call
+8.1 move array to server
+9 get array from server
